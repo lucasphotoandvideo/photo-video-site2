@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lucas Huang – Photography Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="overlay">
+      <h1>Lucas Huang</h1>
+      <p>Photography Portfolio</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m Lucas Huang. I capture stories through light and shadow—
+      landscapes, portraits, and the moments in between.
+    </p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery">
+    <h2>Gallery</h2>
+    <div class="grid">
+      <img src="images/photo1.jpg" alt="Photo 1" />
+      <img src="images/photo2.jpg" alt="Photo 2" />
+      <img src="images/photo3.jpg" alt="Photo 3" />
+      <img src="images/photo4.jpg" alt="Photo 4" />
+      <!-- Add more images as needed -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:lucas@example.com">lucas@example.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/yourhandle" target="_blank">@yourhandle</a></p>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Lucas Huang</p>
+  </footer>
+
+  <script>
+    // simple script to auto-update year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
 
